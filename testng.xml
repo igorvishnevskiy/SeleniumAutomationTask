@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="igorAutomationTask">
+    <test name="EBaySearchTest">
+           <classes>
+                   <class name="tests.ebay.EBaySearchTest" />
+           </classes>
+    </test>
+    <test name="GMaiLoginTest">
+        <classes>
+            <class name="tests.gmail.GMailLoginTest" />
+        </classes>
+    </test>
+</suite>
